@@ -33,12 +33,12 @@
   
     printf("PID attach\n");
     
-    if(ptrace(PTRACE_POKEDATA, target, (void*)"address of running program", (void*)0x9090909090909090) < 0) {
+    if(ptrace(PTRACE_POKEDATA, target, (void*)"address of target program", (void*)0x9090909090909090) < 0) {
      perror("ptrace pokedata");
      return 1;
     }
   
-   printf("injected NOPs at program address\n");
+   printf("injected NOPs at target address\n");
    
    ptrace(PTRACE_CONT, target, NULL, NULL);
    printf("Services killed\n");
