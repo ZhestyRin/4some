@@ -18,7 +18,7 @@ These tools are for **educational purposes and authorized testing only**. Only u
 |---|---|---|
 | `reverse_shell.c` | Connects back to attacker and hands over a shell | ✅ Done |
 | `keylogger.c` | Reads raw keyboard input and streams it over network | ✅ Done |
-| `injector.c` | Injects code into a running process using ptrace | 🔄 In progress |
+| `injector.c` | Injects code into a running process using ptrace | ✅ Done |
 | ELF infector | Patches ELF binaries to inject payload at entry point | 🔜 Planned |
 | Rootkit (LKM) | Kernel module that hides files and processes | 🔜 Planned |
 
