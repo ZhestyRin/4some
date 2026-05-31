@@ -6,7 +6,7 @@
 #include <netinet/in.h>
 #include <unistd.h>
 #include <fcntl.h>
-
+#include <string.h>
 
  int main() {
  
