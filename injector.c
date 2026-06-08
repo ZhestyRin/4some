@@ -12,7 +12,7 @@
 #include <stdlib.h>
 #include <sys/ptrace.h>
 #include <sys/types.h>
-#include <sys/wait.h>
+#include <sys/wait.h>                                   //add dynamic pid search method later for best work possible
 
 
   int main(int argc, char *argv[]) {
@@ -45,4 +45,4 @@
    
   
   return 0;
-  }
+  } 
