@@ -18,7 +18,7 @@
 #include <netinet/in.h>
 #include <string.h>
 
-
+                                   //Need to make it running on background such as daemon for better use
 
  const char *keymap[256] = {
     [1]="ESC",[2]="1",[3]="2",[4]="3",[5]="4",
